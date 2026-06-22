@@ -8,7 +8,7 @@ export default function SidebarBrandCard() {
 
         <div>
           <p className="text-sm font-semibold text-white">Pemrograman III - Web Service</p>
-          <p className="text-xs text-slate-300">Praktikum React</p>
+          <p className="text-xs text-slate-300">Pertemuan 12 - JWT</p>
         </div>
       </div>
     </div>

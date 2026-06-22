@@ -7,6 +7,7 @@ import Footer from "./Footer";
 const PAGE_TITLES = {
   "/dashboard": "Dashboard",
   "/mahasiswa": "Data Mahasiswa",
+  "/profile": "Profil",
 };
 
 export default function AppLayout() {
@@ -16,6 +17,9 @@ export default function AppLayout() {
   const pageTitle = useMemo(() => {
     if (location.pathname.startsWith("/mahasiswa")) {
       return "Data Mahasiswa";
+    }
+    if (location.pathname.startsWith("/profile")) {
+      return "Profil";
     }
 
     return PAGE_TITLES[location.pathname] ?? "Praktikum";

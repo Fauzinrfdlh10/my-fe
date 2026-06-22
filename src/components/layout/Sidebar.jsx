@@ -6,16 +6,23 @@ const menuItems = [
   {
     id: "dashboard",
     label: "Dashboard",
-    description: "Ringkasan data kelas",
-    icon: "🏠",
+    description: "Ringkasan autentikasi",
+    icon: "DB",
     to: "/dashboard",
   },
   {
     id: "mahasiswa",
     label: "Mahasiswa",
     description: "Daftar data mahasiswa",
-    icon: "🎓",
+    icon: "MHS",
     to: "/mahasiswa",
+  },
+  {
+    id: "profil",
+    label: "Profil",
+    description: "Akun dan keamanan",
+    icon: "USR",
+    to: "/profile",
   },
 ];
 
